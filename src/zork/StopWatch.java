@@ -7,15 +7,22 @@ public class StopWatch {
     private long startTime = 0;
     private long stopTime = 0;
 
+    //constructor
     StopWatch() {
         startTime = System.currentTimeMillis();
     }
 
+    /**
+     * start time
+     */
     void start() {
         startTime = System.currentTimeMillis();
 
     }
 
+    /**
+     * deduct time as a reward
+     */
     void eatApple() {
         startTime = startTime - 2000;
     }

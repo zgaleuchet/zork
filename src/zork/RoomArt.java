@@ -2,6 +2,11 @@ package zork;
 
 public class RoomArt {
 
+    /**
+     * create room Pictures
+     * @return
+     */
+
     public String kitchen(){
         return "   ____________________________________________________________________    \n" +
                 " /|    |__I__I__I__I__I__I__I__I__I_|       _-       %       %         |\\\n" +
